@@ -1,10 +1,10 @@
 Authors:	Pierson Carulli
-			Jesse Griffin
-			Patrick Kent
+		Jesse Griffin
+		Patrick Kent
 Date:		3 May 2020
-Course:		CS460 Operating Systems
-Summary:	Project 4 - BackItUp!
-			BackItUp! backs up all accessible files and directories in the current directory under a directory called
+
+Summary:    BackItUp!
+	    BackItUp! backs up all accessible files and directories in the current directory under a directory called
             '.backup'. BackItUp! will also restore from the '.backup' directory when run with the '-r' flag. This program
             uses threads when backing up and restoring individual files. BackItUp! only copies files if the backup is older,
             and restores only if the original is older.
